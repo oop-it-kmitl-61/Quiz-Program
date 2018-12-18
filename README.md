@@ -139,6 +139,5 @@ public void run(){
 |    @Supermalonz    |     @Chayakorn     |
 
 # 👨‍🏫  Assistant Adviser
-|<a href=""><img src="https://scontent.fbkk2-7.fna.fbcdn.net/v/t1.0-9/37121505_10156492178048805_2165340472749326336_n.jpg?_nc_cat=111&_nc_ht=scontent.fbkk2-7.fna&oh=9455db85c22726de7279c1b8a0065954&oe=5C930D70" width="250px"></a>|
-| :-: |
-|ผศ.ดร. ธนิศา นุ่มนนท์|
+|![](https://avatars3.githubusercontent.com/u/25024858?s=150&v=4)|ผศ.ดร. ธนิศา นุ่มนนท์|
+|--|--|
