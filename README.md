@@ -211,14 +211,3 @@ public void run(){
 # 👨‍🏫  Assistant Adviser
 |![](https://avatars3.githubusercontent.com/u/25024858?s=150&v=4)|ผศ.ดร. ธนิศา นุ่มนนท์|
 |--|--|
-<img src="img/it_kmitl_logo.png"  width="100">
-
-06016317 Object-Oriented Programming
-
-Faculty of Information Technology
-
-King Mongkut's Institute of Technology Ladkrabang
-
----
-
-&copy; 2018 Hooza, All Rights Reserved
