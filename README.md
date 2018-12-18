@@ -142,6 +142,65 @@ public void run(){
         }
     }
 ```
+### ตัวอย่าง Code ของการเชื่อมต่อเข้าสู่ Lobby
+```java
+@Override
+    public void actionPerformed(ActionEvent e) {
+        String cmd = e.getActionCommand();
+        if (cmd.equals("Connect")) {
+            login.setVisible(false);
+
+            try {
+                s = new Socket(ipField.getText(), 5555);
+
+                in = new BufferedReader(new InputStreamReader(s.getInputStream()));
+                out = new PrintWriter(s.getOutputStream(), true);
+                objIn = new ObjectInputStream(s.getInputStream());
+                out.println("id " + user.getId());
+
+                new Thread(new Runnable() {
+                    //read thread
+                    @Override
+                    public void run() {
+                        while (true) {
+
+                            try {
+                                dataIn = in.readLine();
+                                if (dataIn.equals("start")) {
+
+                                    System.out.println("game start");
+                                    try {
+
+                                        System.out.println("ink");
+                                        quiz = (Quiz) objIn.readObject();
+
+                                        System.out.println("recv obj");
+                                        System.out.println(quiz.toString());
+                                        gameplay(quiz);
+
+                                    } catch (Exception ex) {
+                                        ex.printStackTrace();
+                                    }
+
+                                }
+                            } catch (IOException ex) {
+                                Logger.getLogger(Student.class.getName()).log(Level.SEVERE, null, ex);
+                            }
+
+                        }
+                    }
+                }).start();
+
+            } catch (IOException e1) {
+                e1.printStackTrace();
+                game.setVisible(false);
+            }
+        }
+    
+```
+
+
+
 # 👥Team Member
 |<a href=""><img src="https://scontent.fbkk2-8.fna.fbcdn.net/v/t1.0-9/18156901_1456506974417122_2622418456792260905_n.jpg?_nc_cat=109&_nc_ht=scontent.fbkk2-8.fna&oh=0c174e778166cbfb620e3f7eadd1ea87&oe=5C9609FB" width="200px"></a>  |<a href=""><img src="https://scontent.fbkk2-7.fna.fbcdn.net/v/t1.0-9/10806376_942596332434956_7575925399337993121_n.jpg?_nc_cat=108&_nc_ht=scontent.fbkk2-7.fna&oh=8e2b5485f40b727528854d152fdfec94&oe=5CADAD56" width="200px"></a>  |
 | :-: | :-: |
