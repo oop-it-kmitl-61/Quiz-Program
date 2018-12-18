@@ -211,3 +211,9 @@ public void run(){
 # 👨‍🏫  Assistant Adviser
 |![](https://avatars3.githubusercontent.com/u/25024858?s=150&v=4)|ผศ.ดร. ธนิศา นุ่มนนท์|
 |--|--|
+
+---
+
+Faculty of Information Technology
+
+King Mongkut's Institute of Technology Ladkrabang
