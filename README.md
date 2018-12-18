@@ -10,11 +10,20 @@ Hooza คือ โปรแกรมที่ไว้ใช้สำหรั�
 <img src="http://www.digitaltrends.com/wp-content/uploads/2010/11/java-logo.jpg" >
 
 # 🗜️ขั้นตอนการทำงานของ Hooza?
+## 🤖ขั้นตอนในการเพิ่ม Libraies🤖
+- File -> Project Structure
+<img src="https://scontent.fbkk22-2.fna.fbcdn.net/v/t1.0-9/48367275_2255896331144845_8466258152558428160_o.jpg?_nc_cat=107&_nc_eui2=AeHU_EKVOAtV8R176qw6R_CdNeKgxvKJ8IyYBc1lMDGLfvHWG3Xxuaf2g9cXO1RdolST7fFyWKZ2BNDoXJm3oBfKtMO9M3s59QyD4e_bT65Iqw&_nc_ht=scontent.fbkk22-2.fna&oh=e64b6da30b983fab82c6107550ea54eb&oe=5C94A42F" width="800"/>
+<img src="https://scontent.fbkk22-1.fna.fbcdn.net/v/t1.0-9/48421999_2255896254478186_5699466720423444480_o.jpg?_nc_cat=110&_nc_eui2=AeGM6YpCrEtbnNnTWW1oPB_jm8LBtETSR9I66MZ7L84bm7I5iyXtW1Fhb9gMVTf4N29xFA9an8rNmXPCgc9eb7Ib83cxGolNzZLu_l9OD8yXDg&_nc_ht=scontent.fbkk22-1.fna&oh=e384ee5b932c762479b8b82f474589f9&oe=5C93C281" width="800"/>
+<img src="https://scontent.fbkk22-2.fna.fbcdn.net/v/t1.0-9/48416376_2255896277811517_6366148792697225216_o.jpg?_nc_cat=109&_nc_eui2=AeG7v3K_YQ1c2rL5_UWQGWjlKeLLyroMSfCEwad54AJW7Wm-WiDMTceEVQ9kwW6XIgr01rTGpNB0X0ArIqo_aaI74UogB0v5w2SzEiEQiMaO2Q&_nc_ht=scontent.fbkk22-2.fna&oh=a628f13a1a3a8fc5dd2d9533f1b22374&oe=5C93C795" width="800"/>
+
+
+
 1.) เมื่อเปิดโปรแกรมขึ้นมาแล้วจะพบกับหน้าเข้าสู่ระบบ ซึ่งข้อมูลของผู้ใช้ต่าง ๆ ไม่ว่าจะเป็น ชื่อ, นามสกุล, รหัสนักศึกษา, คะแนน จะถูกเก็บอยู่บน Database Online ซึ่งจะต้องเพิ่ม Library สำหรับการเชื่อมต่อ Database ซึ่ง Library เมื่อ Clone Project มาแล้วจะมาพร้อมกับ `mysql-connector-java-8.0.13.jar` ซึ่งเป็น Library สำหรับการเชื่อม Database
 
 <p float="left">
   <img src="https://scontent.fbkk2-8.fna.fbcdn.net/v/t1.0-9/48359393_2254579374609874_111344196765351936_o.jpg?_nc_cat=104&_nc_ht=scontent.fbkk2-8.fna&oh=ada65ba41a8036e66bba9edd40338af8&oe=5CAA8492" width="800"/>
 </p>
+
 
 <p float="left">
   <img src="https://scontent.fbkk2-7.fna.fbcdn.net/v/t1.0-9/48364335_2254579351276543_5104517796063084544_n.jpg?_nc_cat=106&_nc_ht=scontent.fbkk2-7.fna&oh=0b5148baabd3769684edee5a1c8262b8&oe=5C9A687F" width="300" /> 
