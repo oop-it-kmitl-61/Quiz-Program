@@ -65,7 +65,7 @@ public class QuizStudent extends javax.swing.JFrame implements Runnable {
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
 
         t.setFont(new java.awt.Font("MS Gothic", 0, 14)); // NOI18N
-        t.setForeground(new java.awt.Color(255, 255, 255));
+        t.setForeground(new java.awt.Color(0, 0, 0));
         t.setText("ID: "+ test.getId()+"  Name: "+test.getFname()+"  Score: "+ test.getScore());
 
         Join.setBackground(new java.awt.Color(55, 127, 234));
