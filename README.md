@@ -10,6 +10,7 @@ Hooza คือ โปรแกรมที่ไว้ใช้สำหรั�
 <img src="http://www.digitaltrends.com/wp-content/uploads/2010/11/java-logo.jpg" >
 
 # 🗜️ขั้นตอนการทำงานของ Hooza?
+## *** หากต้องการที่จะใช้งานตัวโปรแกรมโดยไม่จำเป็นต้องเพิ่ม Libraries สามารถทำได้โดยการ Clone ตัว project แล้วใช้งานตัวโปรแกรมผ่าน Folder JAR และ                    รันตัว _Hooza.jar ***
 ## 🤖ขั้นตอนในการเพิ่ม Libraies🤖
 - File -> Project Structure
 <img src="https://scontent.fbkk22-2.fna.fbcdn.net/v/t1.0-9/48367275_2255896331144845_8466258152558428160_o.jpg?_nc_cat=107&_nc_eui2=AeHU_EKVOAtV8R176qw6R_CdNeKgxvKJ8IyYBc1lMDGLfvHWG3Xxuaf2g9cXO1RdolST7fFyWKZ2BNDoXJm3oBfKtMO9M3s59QyD4e_bT65Iqw&_nc_ht=scontent.fbkk22-2.fna&oh=e64b6da30b983fab82c6107550ea54eb&oe=5C94A42F" width="800"/>
